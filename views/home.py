@@ -2,7 +2,7 @@ import streamlit as st
 
 def render():
     # 1. Headline de Impacto
-    st.title("Especialista em Infraestrutura Open Source & IA")
+    st.title("Especialista em Infraestrutura de TI")
     st.subheader("Transformando tecnologia livre em eficiência operacional para o seu negócio.")
 
     st.markdown("---")
@@ -14,12 +14,12 @@ def render():
         # Foto de perfil com borda arredondada via CSS se desejar
         st.image("https://avatars.githubusercontent.com/u/83986662?s=400&u=809fac95aa11dce87070ac2d071c955d63d5fb86&v=4", width=280)
         st.markdown("### 📍 Localização")
-        st.write("São Paulo, Brasil (Disponibilidade Global)")
+        st.write("São Paulo, Brasil")
 
     with col_bio:
         st.markdown("""
         ### Proposta de Valor
-        Ajudo empresas a escalarem suas operações através de ferramentas **Open Source**, eliminando custos abusivos de licenciamento e garantindo total soberania sobre seus dados.
+        Ajudo empresas a escalarem suas operações através de ferramentas **Open Source**, eliminando custos e garantindo total soberania sobre seus dados.
         
         Com sólida experiência em **Linux** e ecossistema **Python**, projeto infraestruturas robustas que unem o poder da IA generativa com a estabilidade de ERPs modernos.
         """)
@@ -72,4 +72,4 @@ def render():
 
     # 5. Frase de Fechamento Profissional
     st.markdown("<br>", unsafe_allow_html=True)
-    st.warning("💡 **Diferencial:** Todos os projetos são entregues com documentação técnica e containers prontos para produção.")
+    st.warning("💡 **Diferencial:** Todos os projetos são entregues com documentação técnica e containers prontos para produção, além do suporte humanizado.")
