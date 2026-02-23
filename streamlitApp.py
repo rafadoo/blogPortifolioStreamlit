@@ -113,6 +113,6 @@ st.markdown("<br><br>", unsafe_allow_html=True)
 st.markdown("---")
 col_f1, col_f2 = st.columns([3, 1])
 with col_f1:
-    st.caption("© 2026 Rafael do Ó - Consultoria em Infraestrutura Open Source & IA")
+    st.caption("© 2026 Rafael do Ó - Consultoria em TI")
 with col_f2:
     st.caption("Powered by Python & Docker")
