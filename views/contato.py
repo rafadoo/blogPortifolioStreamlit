@@ -4,8 +4,8 @@ def render():
     st.title("✉️ Vamos construir algo juntos?")
     st.write("Seja para uma consultoria técnica, deploy de infraestrutura ou automação com IA, estou à disposição para ajudar seu negócio a escalar.")
 
-    # Substitua pelo seu e-mail real
-    seu_email = "seu-email@exemplo.com"
+    # Substitua pelo seu e-mail
+    seu_email = "rafaeldoo@protonmail.com"
 
     # Criando o formulário com HTML/CSS para integração com FormSubmit
     contact_form = f"""
@@ -19,6 +19,7 @@ def render():
             <option value="Automação n8n">Automação de Workflows (n8n)</option>
             <option value="Infraestrutura Docker/Linux">Infraestrutura Docker / Linux</option>
             <option value="Odoo ERP">Implementação Odoo ERP</option>
+            <option value="Consultoria para soluções em TI em geral">Implementação Odoo ERP</option>
             <option value="Outros">Outros Assuntos</option>
         </select>
         <textarea name="message" placeholder="Como posso ajudar o seu projeto?" style="width: 100%; padding: 12px; margin: 8px 0; border: 1px solid #333; border-radius: 8px; background-color: #1a1a1a; color: white; min-height: 150px;" required></textarea>
@@ -40,7 +41,7 @@ def render():
         # Botões de link personalizados com estilo de marca
         st.link_button("🤝 Agendar Reunião (Calendly)", "https://calendly.com/rafaeldooubuntu", use_container_width=True)
         st.link_button("🔗 Conectar no LinkedIn", "https://linkedin.com/in/seu-usuario", use_container_width=True)
-        st.link_button("💻 Portfólio no GitHub", "https://github.com/rafaeldooubuntu", use_container_width=True)
+        st.link_button("💻 Portfólio no GitHub", "https://github.com/rafadoo/", use_container_width=True)
         
         st.divider()
         
