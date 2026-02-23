@@ -60,7 +60,7 @@ with st.sidebar:
     
     st.markdown("---")
     st.markdown("🌐 **Status da Infra**")
-    # Um toque de cor dinâmico para passar profissionalismo
+    # 
     st.markdown("🟢 `Servidor Linux: Online`")
     st.markdown("🟢 `FastAPI RAG: Operacional`")
     st.markdown("🟢 `Docker Containers: 12 Active`")
