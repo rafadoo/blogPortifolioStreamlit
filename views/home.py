@@ -19,9 +19,9 @@ def render():
     with col_bio:
         st.markdown("""
         ### Proposta de Valor
-        Ajudo empresas e pessoas a escalarem suas operações através de ferramentas tecnológicas **Open Source**, eliminando custos e garantindo total soberania sobre seus dados.
+        Ajudo empresas e pessoas a escalarem suas operações com tecnologias **Open Source**, eliminando custos e garantindo total soberania sobre seus dados.
         
-        Com sólida experiência em **Linux**, ecossistemas **Python** e mais de 10 anos de experiência em TI no mercado de trabalho, projeto infraestruturas robustas que unem desde o poder da IA generativa com a estabilidade de ERPs modernos.
+        Com mais de 10 anos de atuação em TI e sólida experiência em **Linux** e ecossistemas **Python**, projeto infraestruturas robustas que integram desde a inovação da IA generativa à estabilidade de ERPs modernos.
         """)
         
         # Botão de destaque para conversão rápida
