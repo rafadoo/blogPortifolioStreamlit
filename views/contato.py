@@ -19,7 +19,7 @@ def render():
             <option value="Automação n8n">Automação de Workflows (n8n)</option>
             <option value="Infraestrutura Docker/Linux">Infraestrutura Docker / Linux</option>
             <option value="Odoo ERP">Implementação Odoo ERP</option>
-            <option value="Consultoria para soluções em TI em geral">Implementação Odoo ERP</option>
+            <option value="Consultoria para soluções tecnologicas em geral">Consultoria para soluções tecnologicas em geral</option>
             <option value="Outros">Outros Assuntos</option>
         </select>
         <textarea name="message" placeholder="Como posso ajudar o seu projeto?" style="width: 100%; padding: 12px; margin: 8px 0; border: 1px solid #333; border-radius: 8px; background-color: #1a1a1a; color: white; min-height: 150px;" required></textarea>
